@@ -6,11 +6,11 @@ const ShoeCard = ({ imgUrl, changeBigShoeImg, bigShoeImg }) => {
   }
   return (
     <div
-      className={`border-2 rounded-xl ${
+      className={`border-2 rounded-xl cursor-pointer max-sm:flex-1 ${
         bigShoeImg === imgUrl.bigShoe
           ? 'border-coral-red'
           : 'border-transparent'
-      } cursor-pointer max-sm:flex-1`}
+      }`}
       onClick={handleClick}
     >
       <div className='bg-card flex justify-center items-center bg-center bg-cover rounded-xl sm:h-40 sm:w-40 max-sm:p-4'>
