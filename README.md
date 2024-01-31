@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# Nike Clone with Tailwind CSS and React
+
+This project is a clone of the Nike website created using Tailwind CSS and React.
+
+![Nike Clone](screenshot.png)
+
+# Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
